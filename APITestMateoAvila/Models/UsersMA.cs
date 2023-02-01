@@ -1,6 +1,9 @@
 ﻿using System;
+using SQLite;
+
 namespace APITestMateoAvila.Models
 {
+
     public class UsersMA
     {
         public int Id { get; set; }

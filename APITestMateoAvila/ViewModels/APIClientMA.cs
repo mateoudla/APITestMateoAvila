@@ -7,7 +7,7 @@ using APITestMateoAvila.Models;
 
 namespace APITestMateoAvila.ViewModels
 {
-    public class APIClientma
+    public class APIClientMA
     {
         private static readonly HttpClient client = new HttpClient();
 

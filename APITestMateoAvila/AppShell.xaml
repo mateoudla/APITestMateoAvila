@@ -3,13 +3,23 @@
     x:Class="APITestMateoAvila.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:APITestMateoAvila"
+    xmlns:local="clr-namespace:APITestMateoAvila.Views"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+
+        <ShellContent
+            Title="API Users"
+            ContentTemplate="{DataTemplate local:ListViewMA}"
+            Route="ListViewMA"
+            Icon="appicon"/>
+
+        <ShellContent
+            Title="BaseSQL"
+            ContentTemplate="{DataTemplate local:ContentPageMA}"
+            Route="ContentPage"
+            Icon="appicon"/>
+    </TabBar>
 
 </Shell>
 

@@ -66,13 +66,18 @@
 	  <MauiXaml Update="Views\ListViewMA.xaml">
 	    <SubType></SubType>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\ContentPageMA.xaml">
+	    <SubType></SubType>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\EditPageMA.xaml">
+	    <SubType></SubType>
+	  </MauiXaml>
 	</ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
-	  <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="7.0.2" />
-	  <PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.4" />
-	  <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.2" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="7.0.2" />
+	  <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+	  <PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.4" />
+	  <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="7.0.2" />
 	</ItemGroup>
 </Project>

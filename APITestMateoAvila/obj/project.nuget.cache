@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "voPMBcuopUkmVA1hepuYCEU1dKJsBdwKqxR6h3nkcPY7xHoj3m9O5kAdq0te7bvz/hKytPVa9/RwrtGixTJ9Rw==",
+  "dgSpecHash": "W+79LLje4KFVz5evah9q4MRrtIaNwLXOtaoBGtSLhf3ugT+xWq/OHH7MAospNrcI3cN02DFwgjQ+y3hv7MV8dg==",
   "success": true,
   "projectFilePath": "/Users/mateoavila/Documents/GitHub/APITestMateoAvila/APITestMateoAvila/APITestMateoAvila.csproj",
   "expectedPackageFiles": [
@@ -26,7 +26,6 @@
     "/Users/mateoavila/.nuget/packages/microsoft.maui.dependencies/6.0.548/microsoft.maui.dependencies.6.0.548.nupkg.sha512",
     "/Users/mateoavila/.nuget/packages/microsoft.maui.extensions/6.0.548/microsoft.maui.extensions.6.0.548.nupkg.sha512",
     "/Users/mateoavila/.nuget/packages/microsoft.maui.graphics/6.0.501/microsoft.maui.graphics.6.0.501.nupkg.sha512",
-    "/Users/mateoavila/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512",
     "/Users/mateoavila/.nuget/packages/sqlite-net-pcl/1.8.116/sqlite-net-pcl.1.8.116.nupkg.sha512",
     "/Users/mateoavila/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.2/sqlitepclraw.bundle_e_sqlite3.2.1.2.nupkg.sha512",
     "/Users/mateoavila/.nuget/packages/sqlitepclraw.bundle_green/2.0.4/sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",

@@ -1,4 +1,34 @@
 ﻿<Properties StartupConfiguration="{5CF48E44-5CBD-4DD4-A5E7-A606701B6723}|Default">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.APITestMateoAvila FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/UsersMA.cs">
+    <Files>
+      <File FileName="MainPage.xaml.cs" />
+      <File FileName="MainPage.xaml" Line="1" Column="1" />
+      <File FileName="Models/UsersMA.cs" Line="15" Column="1" />
+      <File FileName="ViewsModels/APIClientMA.cs" Line="23" Column="1" />
+      <File FileName="Views/ListViewMA.xaml" Line="4" Column="58" />
+      <File FileName="Views/ListViewMA.xaml.cs" Line="30" Column="1" />
+      <File FileName="ViewModels/SQLiteMA.cs" Line="4" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="APITestMateoAvila" expanded="True">
+            <Node name="APITestMateoAvila" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.APITestMateoAvila PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
