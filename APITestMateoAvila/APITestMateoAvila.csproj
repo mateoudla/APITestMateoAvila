@@ -50,12 +50,15 @@
 
 	<ItemGroup>
 	  <None Remove="Models\" />
-	  <None Remove="ViewsModels\" />
 	  <None Remove="Views\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Models\" />
-	  <Folder Include="ViewsModels\" />
 	  <Folder Include="Views\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <MauiXaml Update="Views\ListViewMA.xaml">
+	    <SubType></SubType>
+	  </MauiXaml>
 	</ItemGroup>
 </Project>
