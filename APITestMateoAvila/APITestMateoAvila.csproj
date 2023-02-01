@@ -51,6 +51,12 @@
 	<ItemGroup>
 	  <None Remove="Models\" />
 	  <None Remove="Views\" />
+	  <None Remove="Newtonsoft.Json" />
+	  <None Remove="Microsoft.Data.Sqlite.Core" />
+	  <None Remove="SQLitePCLRaw.provider.dynamic_cdecl" />
+	  <None Remove="sqlite-net-pcl" />
+	  <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
+	  <None Remove="Microsoft.EntityFrameworkCore.Sqlite.Core" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Models\" />
@@ -60,5 +66,13 @@
 	  <MauiXaml Update="Views\ListViewMA.xaml">
 	    <SubType></SubType>
 	  </MauiXaml>
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+	  <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="7.0.2" />
+	  <PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.4" />
+	  <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.2" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="7.0.2" />
 	</ItemGroup>
 </Project>
